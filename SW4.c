@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <math.h>
 #include <time.h>
+#include <conio.h>
 
 int main (void)
 {
@@ -36,5 +37,6 @@ int main (void)
         printf("Hypotenuse for Triangle #%d: %.2lf\n", i + 1, hypotenuse);
         sleep(1);
     }
+getch();
 }
 
